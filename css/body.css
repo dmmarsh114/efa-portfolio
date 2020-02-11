@@ -3,3 +3,9 @@ body {
 
     margin: 0;
 }
+
+.heading {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 500;
+}

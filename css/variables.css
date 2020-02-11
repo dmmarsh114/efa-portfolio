@@ -1,0 +1,8 @@
+:root {
+    --heading-font:'saudagar';
+}
+
+@font-face {
+    font-family: saudagar;
+    src: url(../assets/Saudagar.ttf);
+}
