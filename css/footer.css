@@ -3,6 +3,9 @@
     color: white;
     margin: 0;
     padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer p {

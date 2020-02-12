@@ -1,3 +1,12 @@
 .text-muted {
     font-style: italic;
 }
+
+.card {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card:hover {
+    top: -35px;
+    border-top: 6px solid rgb(108,139,129);
+}
