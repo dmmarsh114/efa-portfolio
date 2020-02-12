@@ -9,22 +9,22 @@
 </head>
 <body>
 
-
-
   <div class="hero">
     <!-- NAVBAR -->
-    <div class="navBar" id="myNavbar" style="">
+    <div class="navBar" id="myNavbar">
       <div class="container">
         <p>
+          <span><button class="navButton" onclick="window.location.href='#home';">Home</button></span>
           <span><button class="navButton" onclick="window.location.href='#aboutMe';">About Me</button></span>
           <span><button class="navButton" onclick="window.location.href='#projects';">Projects</button></span>
-          <span><button class="navButton" onclick="window.location.href='#contact';">Contact</button></span>
+          <span><button class="navButton" onclick="window.location.href='#contactMe';">Contact</button></span>
           <span><button class="navButton" onclick="window.location.href='./assets/Daniel Marsh Resume 2-20.docx';">Resume</button></span>
         </p>
       </div>
     </div>
     
     <!-- JUMBOTRON -->
+    <a name="home"></a>
     <div class="container" style="margin-left: 0; font-family: var(--heading-font);">
       <div class="headerText">
         <p>Daniel Marsh</p>
@@ -35,7 +35,7 @@
   </div>
 
   <!-- ABOUT -->
-  <div id="aboutMe"></div>
+  <a name="aboutMe"></a>
   <br>
   <br>
   <h2 class="heading text-uppercase">About Me</h2>
@@ -51,42 +51,48 @@
   </div>
 
   <!-- PROJECTS -->
+  <a name="projects"></a>
   <br>
   <br>
   <div class="container-fluid">
-    <h2 class="heading text-uppercase" id="projects">Projects</h2>
+    <h2 class="heading text-uppercase">Projects</h2>
     <div class="card-deck">
+      <!-- CSS Creature -->
       <div class="card">
-        <img class="card-img-top" src="./assets/beach-beachlife-clouds-dawn-167758.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./assets/CSS Creature2.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="heading card-title" style="font-weight: 600;">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="heading card-title" style="font-weight: 600;">CSS Creature</h5>
+          <p class="card-text">A simple creature made with HTML, CSS, and a bit of Javascript</p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
         </div>
       </div>
+      <!-- Static Layout -->
       <div class="card">
-        <img class="card-img-top" src="./assets/person-on-beach-during-golden-hour-783725.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./assets/static layout.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="heading card-title" style="font-weight: 600;">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="heading card-title" style="font-weight: 600;">Static Layout</h5>
+          <p class="card-text">Using HTML and CSS to imitate the styling of Hulu's website</p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
         </div>
       </div>
+      <!-- API Challenge -->
       <div class="card">
-        <img class="card-img-top" src="./assets/photo-of-sea-wave-610744.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./assets/API Challenge.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="heading card-title" style="font-weight: 600;">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="heading card-title" style="font-weight: 600;">API Challenge</h5>
+          <p class="card-text">A website that uses data from a Dungeons&Dragons API to display data</p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
         </div>
       </div>
+
     </div>
   </div>
     
-    <!-- CONTACT -->
+  <!-- CONTACT -->
+  <a name="contactMe"></a>
   <br>
   <br>
-  <h2 class="heading text-uppercase" id="contactMe">Contact Me</h2>
+  <h2 class="heading text-uppercase">Contact Me</h2>
   <section id="contact">
     <div class="container">
         <div class="row">
