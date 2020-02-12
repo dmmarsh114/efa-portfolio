@@ -1,6 +1,16 @@
-.jumbotron {
-    background: url('../assets/hal-ozart-MyRBq7GoVK0-unsplash.jpg') center bottom;
+.hero {
+    background: url('../assets/nature-forest-trees-fog-4827.jpg') center top;
     background-size: cover;
-    color: whitesmoke;
+    color: black;
+    height: 100vh;
+    overflow: hidden;
+}
 
+.headerText {
+    display: flex; 
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 100px; 
+    height: 50vh;
+    font-size: 60px;
 }

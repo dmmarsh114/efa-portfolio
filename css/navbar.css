@@ -1,5 +1,34 @@
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
+    z-index: 2; 
+    background-color: rgb(17, 16, 16);
     width: 100%;
+} */
+
+.navBar {
+    background-color: rgb(17, 16, 16);
+    z-index: 2; 
+    position: fixed;
+    width: 100%;
+}
+
+.navBar p {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 6px;
+    padding-top: 12px;
+    text-align: center;
+    height: 5vh
+}
+
+.navButton {
+    background-color: transparent;
+    border: hidden;
+    color: white;
+}
+
+.navButton:hover {
+    background-color: white;
+    color: black;
 }

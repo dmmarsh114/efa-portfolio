@@ -9,54 +9,44 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg" id="myNavbar" style="z-index: 5;">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <!-- JUMBOTRON -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4" style="font-family: var(--heading-font);">Daniel Marsh</h1>
-      <p class="lead" style="font-family: var(--heading-font);">what am I doing with my life</p>
+
+  <div class="hero">
+    <!-- NAVBAR -->
+    <div class="navBar" id="myNavbar" style="">
+      <div class="container">
+        <p>
+          <span><button class="navButton" onclick="window.location.href='#aboutMe';">About Me</button></span>
+          <span><button class="navButton" onclick="window.location.href='#projects';">Projects</button></span>
+          <span><button class="navButton" onclick="window.location.href='#contact';">Contact</button></span>
+          <span><button class="navButton" onclick="window.location.href='./assets/Daniel Marsh Resume 2-20.docx';">Resume</button></span>
+        </p>
+      </div>
     </div>
+    
+    <!-- JUMBOTRON -->
+    <div class="container" style="margin-left: 0; font-family: var(--heading-font);">
+      <div class="headerText">
+        <p>Daniel Marsh</p>
+        <p style="font-size: 30px;">web developer</p>
+      </div>
+    </div>
+
   </div>
 
   <!-- ABOUT -->
+  <div id="aboutMe"></div>
+  <br>
+  <br>
   <h2 class="heading text-uppercase">About Me</h2>
   <div class="container">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-5">
-        <img src="./assets/man-sitting-with-laptop-computer-on-desk-and-lamp-1586996.jpg" alt="" style="width: 80%; height: 80%;">
-      </div>
-      <div class="col-5">
+      <div class="col-6">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facilis nam beatae asperiores quibusdam laborum exercitationem, tenetur rem eum vitae dicta voluptatem. Sequi magni fugiat expedita ad sit laborum, consequuntur ipsa fuga veniam. Quod, aperiam autem. Pariatur aut, ducimus error ea dolorum vero amet, ipsam repudiandae rerum laudantium mollitia quis!
       </div>
-      <div class="col-1"></div>
+      <div class="col-6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facilis nam beatae asperiores quibusdam laborum exercitationem, tenetur rem eum vitae dicta voluptatem. Sequi magni fugiat expedita ad sit laborum, consequuntur ipsa fuga veniam. Quod, aperiam autem. Pariatur aut, ducimus error ea dolorum vero amet, ipsam repudiandae rerum laudantium mollitia quis!
+      </div>
     </div>
   </div>
 
@@ -64,7 +54,7 @@
   <br>
   <br>
   <div class="container-fluid">
-    <h2 class="heading text-uppercase">Projects</h2>
+    <h2 class="heading text-uppercase" id="projects">Projects</h2>
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="./assets/beach-beachlife-clouds-dawn-167758.jpg" alt="Card image cap">
@@ -96,7 +86,7 @@
     <!-- CONTACT -->
   <br>
   <br>
-  <h2 class="heading text-uppercase">Contact Me</h2>
+  <h2 class="heading text-uppercase" id="contactMe">Contact Me</h2>
   <section id="contact">
     <div class="container">
         <div class="row">
@@ -140,7 +130,9 @@
 
 
   <!-- FOOTER -->
-
+  <div class="footer">
+    <p>© Daniel Marsh</p>
+  </div>
     
   <script src="portfolio.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

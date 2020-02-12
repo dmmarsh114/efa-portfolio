@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(17, 16, 16);
+    color: white;
+    margin: 0;
+    padding: 12px;
+}
+
+.footer p {
+    margin: 0;
+    height: 5vh
+}

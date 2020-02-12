@@ -12,11 +12,7 @@ function navbarScroll() {
   // if the user scrolls (pageYOffset) past the header's position, add the sticky class
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
-    header.classList.add("navbar-dark");
-    header.classList.add("bg-dark");
   } else {
     header.classList.remove("sticky");
-    header.classList.remove("navbar-dark");
-    header.classList.remove("bg-dark");
   }
 }
