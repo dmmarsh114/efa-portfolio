@@ -10,3 +10,36 @@
     top: -35px;
     border-top: 6px solid rgb(108,139,129);
 }
+
+.modal-title {
+    font-family: var(--heading-font);
+    font-weight: 900;
+}
+
+.modal-header {
+    background-color: rgb(211,211,211);
+}
+
+.modal-body {
+    /* background-color: rgb(211,211,211); */
+    font-family: 'Roboto', sans-serif;    
+}
+
+.modal-footer {
+    background-color: rgb(108,139,129);
+    height: 12px;
+    padding: 0;
+}
+
+.modalButton {
+    background-color: rgb(108,139,129);
+    border-color: rgb(108,139,129);
+    border-radius: 10px;
+    color: white;
+}
+
+.modalButton:hover {
+    background-color: white;
+    color: black;
+    border-color: rgb(108,139,129);
+}
