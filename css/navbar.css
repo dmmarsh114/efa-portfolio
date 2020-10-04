@@ -6,23 +6,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navBar p {
-    display: flex; 
-    justify-content: space-around; 
-    padding: 6px;
-    padding-top: 12px;
-    text-align: center;
-    height: 5vh
+.navBar ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
 }
 
-.navButton {
-    background-color: transparent;
-    border: hidden;
-    border-radius: 15px;
+.navBar li {
+    padding: 10px;
+}
+
+.navBar a {
     color: white;
+    border: medium solid transparent;
+    padding: 10px;
 }
 
-.navButton:hover {
-    background-color: white;
-    color: black;
+.navBar a:hover {
+    color: #6C8B81;
+    text-decoration: none;
+    border: medium solid #6C8B81;
+
 }

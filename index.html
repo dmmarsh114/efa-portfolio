@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DM Portfolio</title>
+  <title>Daniel Marsh</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" ref="text/css" href="./css/main.css">
@@ -17,19 +17,17 @@
   <!-- NAVBAR -->
   <div class="navBar" id="myNavbar">
     <div class="container">
-      <p>
-        <span><button class="navButton" onclick="window.location.href='#home';">Home</button></span>
-        <span><button class="navButton" onclick="window.location.href='#aboutMe';">About</button></span>
-        <span><button class="navButton" onclick="window.location.href='#projects';">Projects</button></span>
-        <span><button class="navButton" onclick="window.location.href='#contactMe';">Contact</button></span>
-        <span><button class="navButton"
-            onclick="window.location.href='./assets/Daniel Marsh Resume 2-20.docx';">Resume</button></span>
-      </p>
+      <ul>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contactMe">Contact</a></li>
+        <li><a href="assets/Daniel Marsh Resume.pdf" target="blank">Resume</a></li>
+      </ul>
     </div>
   </div>
 
   <!-- JUMBOTRON -->
-  <div class="hero">
+  <div class=" hero">
     <a name="home"></a>
     <div class="" style="margin-left: 0; font-family: var(--heading-font);">
       <div class="headerText">
@@ -37,7 +35,7 @@
         <p style="font-family: 'Roboto', sans-serif; font-size: 30px; font-weight: 300;">web developer</p>
         <div class="icons">
           <a href="https://github.com/dmmarsh114" target="blank"><i class="fab fa-github fa-1x"></i></a>
-          <a href=""><i class="fab fa-linkedin fa-1x"></i></a>
+          <a href="https://www.linkedin.com/in/dmmarsh114/" target="blank"><i class="fab fa-linkedin fa-1x"></i></a>
         </div>
       </div>
     </div>
@@ -53,88 +51,76 @@
     <hr class="sectionDivider">
     <div class="container" style="margin-top: 40px;">
       <div class="row">
-        <div class="col-6 aboutBlurb">
-          <p>I graduated from Indiana University in 2016 with a desire to work outdoors, see other places, and give back
-            to the world. I volunteered for 2 months doing hurricane disaster relief in the U.S. Virgin Islands, then
-            did much longer stint with the Montana Conservation Corps in the remote wilderness. Along the way, I worked
-            in landscaping and as a grower in a commercial greenhouse in the Indianapolis area. During that time, I
-            began to teach myself how to code. I taught myself the basics of the C# programming language by building
-            simple games using the Unity Engine. </p>
+        <div class="col-3"></div>
+        <div style="text-align: center;" class=" col-6 aboutBlurb">
+          <p>Hello, I'm Daniel Marsh!</p>
+          <p>I am a full-stack developer who has been training nearly full-time since January. I have completed a Web
+            Development course at the Eleven Fifty Academy, as well as Salesforce’s Pathfinder program. I am currently
+            taking a
+            Software Development course at Eleven Fifty.</p>
         </div>
-        <div class="col-6" id="optionalImage">
-          <p>At first programming was just a hobby of mine, but I quickly realized that I was even more interested in
-            working with computers than I was with plants. I began looking for ways to further my education in
-            programming, with an eye to a future career. That’s when I discovered the Eleven Fifty Academy -- a coding
-            bootcamp in Indianapolis. Now that I’m enrolled, I am expanding my knowledge of HTML, CSS, and Javascript.
-            After this, I’ll be entering the job market, and I’m sure I’ll always be learning more, designing more, and
-            enhancing my coding skills.</p>
-        </div>
+        <div class="col-3"></div>
       </div>
     </div>
   </div>
 
   <!-- PROJECTS -->
-  <div>
-    <a name="projects"></a>
-    <br>
-    <br>
-    <br>
-    <div class="container-fluid" style="height: 100vh;">
-      <h2 class="heading text-uppercase" style="margin-bottom: 16px;">Projects</h2>
-      <hr class="sectionDivider">
-      <div class="card-deck">
+  <a name="projects"></a>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid" style="height: 100vh;">
+    <h2 class="heading text-uppercase" style="margin-bottom: 16px;">Projects</h2>
+    <hr class="sectionDivider">
+    <div class="card-deck">
 
-        <!-- CSS Creature -->
-        <div class="card">
-          <img class="card-img-top" src="./assets/CSS Creature2.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="heading card-title" style="font-weight: 600;">CSS Creature</h5>
-            <p class="card-text">A simple creature made with HTML, CSS, and a bit of Javascript.</p>
-            <p class="card-text"><a href="https://codepen.io/dmmarsh4/pen/oNgOozo?editors=1100" target="blank">Click
-                here to see the project!</a></p>
-            <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
-            <button class="modalButton" data-toggle="modal" data-target="#CSSCreatureModal">More Info</button>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" id="CSSCreatureModal" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalCenterTitle">CSS Creature</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>This was one of the first projects that I made while I was at the Eleven Fifty Academy. I got to
-                    experiment with basic HTML tags, as well as CSS classes and IDs. I learned how to use CSS for
-                    styling HTML elements through the use of borders, backgrounds, and colors.</p>
-                  <p>I also learned how to use CSS to give the creature some simple animations, and I was able to apply
-                    those practices to future projects.
-                    Above all else, I learned a great deal about how to place and arrange elements using CSS. I
-                    struggled with adjusting the display and position settings at first, but by the end of the project I
-                    was starting to feel comfortable with the basic concepts.</p>
-                </div>
-                <div class="modal-footer">
-                  <!-- <button class="modalButton" data-dismiss="modal">Close</button> -->
-                </div>
+      <!-- CSS Creature -->
+      <div class="card">
+        <img class="card-img-top" src="./assets/SD CSS Creature.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="heading card-title" style="font-weight: 600;">CSS Creature</h5>
+          <p class="card-text">A simple creature made with HTML and CSS.</p>
+          <p class="card-text"><a href="https://codepen.io/dmmarsh4/pen/gOrPQeJ" target="blank">Click
+              here to see the project!</a></p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
+          <button class="modalButton" data-toggle="modal" data-target="#CSSCreatureModal">More Info</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="CSSCreatureModal" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">CSS Creature</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>This project was a great lesson in basic html and css styling.</p>
+                <p>This project also taught me to manage my expectations. Initially, I had lofty plans for this
+                  creature, but time constraits forced me to settle for something less than what I had imagined.</p>
+                <p>This shameful creature is the result of that.</p>
+              </div>
+              <div class="modal-footer">
+                <!-- <button class="modalButton" data-dismiss="modal">Close</button> -->
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Static Layout -->
-        <div class="card">
-          <img class="card-img-top" src="./assets/static layout.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="heading card-title" style="font-weight: 600;">Static Layout</h5>
-            <p class="card-text">Using HTML and CSS to imitate the styling of Hulu's website.</p>
-            <p class="card-text"><a href="https://dmmarsh114.github.io/static-layout/" target="blank">Click here to see
-                the project!</a></p>
-            <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
-            <button class="modalButton" data-toggle="modal" data-target="#StaticLayoutModal">More Info</button>
-          </div>
+      <!-- Static Layout -->
+      <div class="card">
+        <img class="card-img-top" src="./assets/SD Static Store Front.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="heading card-title" style="font-weight: 600;">Static Layout</h5>
+          <p class="card-text">Using HTML, CSS, and JavaScript to create a fictional storefront.</p>
+          <p class="card-text"><a href="https://dmmarsh114.github.io/Static-Store-Front/" target="blank">Click here to
+              see
+              the project!</a></p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
+          <button class="modalButton" data-toggle="modal" data-target="#StaticLayoutModal">More Info</button>
         </div>
         <!-- Modal -->
         <div class="modal fade" id="StaticLayoutModal" tabindex="-1" role="dialog"
@@ -148,17 +134,9 @@
                 </button>
               </div>
               <div class="modal-body">
-                <p>The Static Layout was a more robust exercise in constructing HTML pages and styling them with CSS.
-                  The goal here was to recreate the landing page for Hulu’s main website. Aside from the background
-                  image, I feel like I was able to capture the overall style pretty well.</p>
-                <p>This project was also a lesson in organizing my code: because I had more elements and sections to
-                  manage than I did with the CSS Creature, I had to be very mindful of how I was naming and using my
-                  classes and IDs.</p>
-                <p>There were more than a few interesting problems that I had to solve while making this layout, but
-                  chief among them was the navigation bar. Hulu’s website had a navbar that was fixed to the top of the
-                  screen, but its background color would change as the user scrolled down the page. In order to recreate
-                  this effect, I used some basic DOM manipulation to add and remove classes to the navbar, thereby
-                  giving it the ability to change its style dynamically.</p>
+                <p>The goal here was to create a static webpage for a fictional, online store. I decided to make this
+                  store pirate-themed, thanks to my recent obsession with the excellent <a target="blank"
+                    href="https://www.seaofthieves.com/">Sea of Thieves</a>.</p>
               </div>
               <div class="modal-footer">
                 <!-- <button class="modalButton" data-dismiss="modal">Close</button> -->
@@ -166,22 +144,23 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- API Challenge -->
-        <div class="card">
-          <img class="card-img-top" src="./assets/API Challenge.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="heading card-title" style="font-weight: 600;">API Challenge</h5>
-            <p class="card-text">A website that uses data from a Dungeons&Dragons API to display data.</p>
-            <p class="card-text"><a href="https://dmm-api-challenge.firebaseapp.com/" target="blank">Click here to see
-                the project!</a></p>
-            <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
-            <!-- Button trigger modal -->
-            <button class="modalButton" data-toggle="modal" data-target="#APImodal">More Info</button>
-          </div>
+      <!-- Gold Badge Challenges -->
+      <div class="card">
+        <img class="card-img-top" src="./assets/SD Gold Badge Challenges.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="heading card-title" style="font-weight: 600;">Gold Badge Challenges</h5>
+          <p class="card-text">A suite of simple console apps.</p>
+          <p class="card-text"><a href="https://github.com/dmmarsh114/SD-Gold-Badge-Challenges" target="blank">Download
+              the project here!</a></p>
+          <p class="card-text"><small class="text-muted">EFA Gold Badge</small></p>
+          <!-- Button trigger modal -->
+          <button class="modalButton" data-toggle="modal" data-target="#APImodal">More Info</button>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="APImodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        <div class="modal fade" id="APImodal" tabindex="-1" role="dialog" </div>
+          aria-labelledby="exampleModalCenterTitle"
           aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -192,18 +171,15 @@
                 </button>
               </div>
               <div class="modal-body">
-                <p>The goal of this project was to use a simple API to retrieve and display data. I used a
-                  Dungeons&Dragons API to display data pertaining to all the spells that a player could cast in the
-                  game.</p>
-                <p>I used DOM manipulation to find, populate, and style the various HTML elements as the user interacted
-                  with the application. While I became very comfortable with using Javascript to fetch and display data,
-                  I struggled with the application’s style and responsiveness.</p>
+                <p>This is a collection of simple console apps that built on the C# fundamentals that I have been
+                  learning.</p>
               </div>
               <div class="modal-footer">
                 <!-- <button class="modalButton" data-dismiss="modal">Close</button> -->
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -264,7 +240,8 @@
     <p>© Daniel Marsh
       <a href="https://github.com/dmmarsh114" target="blank" style="color: rgb(108,139,129);"><i
           class="fab fa-github fa-1x"></i></a>
-      <a href="" target="blank" style="color: rgb(108,139,129);"><i class="fab fa-linkedin fa-1x"></i></a>
+      <a href="https://www.linkedin.com/in/dmmarsh114/" target="blank" style="color: rgb(108,139,129);"><i
+          class="fab fa-linkedin fa-1x"></i></a>
     </p>
   </div>
 
@@ -281,10 +258,3 @@
 </body>
 
 </html>
-
-
-<!-- TODO List -->
-<!-- 
-  Link LinkedIn
-  Overall Responsiveness
- -->

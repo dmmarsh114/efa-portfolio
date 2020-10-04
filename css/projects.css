@@ -4,10 +4,11 @@
 
 .card {
     font-family: 'Roboto', sans-serif;
+    border-top: 6px solid #D3D3D3;
 }
 
 .card:hover {
-    top: -35px;
+    /* top: -35px; */
     border-top: 6px solid rgb(108,139,129);
 }
 
